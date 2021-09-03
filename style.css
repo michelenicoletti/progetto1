@@ -1,0 +1,95 @@
+/* background */
+body{
+  background-image: url('../Scooter Lim/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Dark background */
+body>div{
+  width: 900px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+/* Logo and title */
+header{
+  align-items: center;
+  text-align: center;
+}
+
+header>h1{
+  color: rgb(8, 220, 4);
+  font-size: 25px;
+}
+
+header>img{
+  height: 100px;
+  width: auto;
+  margin-top: 40px;
+}
+
+/* Navigator and input */
+nav{
+  width: 750px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(8, 220, 4);
+  padding: 10px 0px 10px 0;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Central part */
+section{
+  margin-left: 75px;
+}
+
+section h2, section h3{
+  color: white;
+  margin:  3px 0px 3px 0;
+  display: inline-block;
+  font-size: 15px;
+}
+
+div>span{
+  color: white;
+  font-size: 20px;
+}
+
+section div:first-child{
+  margin-top: 10px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+section div:last-child{
+  height: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+#statecharge1{
+  background-color: yellow;
+  width: 300px;
+}
+
+#statecharge2{
+  background-color: rgb(8, 220, 4);
+  width: 500px;
+}
+
+#statecharge3{
+  background-color: red;
+  width: 150px;
+}
+
+/* Signature Web Developer */
+h4{
+  color: white;
+  font-style: oblique;
+  margin: 21.28px 0px 5px 650px
+}
